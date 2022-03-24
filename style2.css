@@ -1,0 +1,68 @@
+/*
+.container{
+    display: grid;
+    background-color: aqua;
+    height: 200px;
+    width: 1265px;
+    justify-content: space-evenly;
+}
+
+.box1{
+    display: grid;
+    background-color: aquamarine;
+    height: 300px;
+    width: 400px;
+}
+
+.box2{
+    display: grid;
+    background-color: blueviolet;
+    height: 400px;
+    width: 500px;
+}
+*/
+.grid {
+    border: 2px blue solid;
+    height: 700px;
+    width: 1250px;
+    display: grid;
+    grid-template-columns: 25% 25% 2fr 1fr;
+    grid-template-rows: 200px 200px;
+    row-gap: 10px;
+    column-gap: 15px;
+    background-image: url('images/momo.jpg');
+    background-size: 100%;
+  }
+  /* 
+  .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+  }
+  */
+  .a {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    
+    height: 50px;
+    width: 1245px;
+}
+
+  .b {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 6px; ;
+    height: 50px;
+}
+
+.header {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.navigation{
+    color: aqua;
+}

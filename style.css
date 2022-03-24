@@ -1,0 +1,86 @@
+header {
+    color: black;  
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1px;
+    text-align: center;
+
+}
+
+.navigation {
+    background-color: black;
+    height: 50px;
+    font-size: larger;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 25px;
+    color: brown;
+}
+
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+  
+ img {
+     height: 700px;
+     width: 1250px;
+     opacity: .8;
+ }
+
+ .container{
+     display: grid inline;
+     color: rgb(0, 0, 0);
+     height: 800px;
+     width: 1250px;
+     /* background-color: rgb(146, 134, 134); */
+ }
+ .grid1{
+     background-color: rgb(73, 73, 77);
+     height: 600px;
+     width: 600px;
+     border-radius: 40%;
+     border: 2px white solid;
+     top: 20%;
+ }
+ .grid2{
+     background-color: rgb(132, 145, 140);
+     height: 600px;
+     width: 600px;
+     border-radius: 40%;
+     position: absolute;
+     right:2%;
+     top: 148%;
+     text-align: center;
+
+ }
+.grid1 p {
+    position: absolute;
+    bottom: -130%;
+    right: 31%;
+    height: 20%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 248, 220);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .grid1 h1{
+    bottom: -90%;
+    right: 55%;
+    height: 20%;
+    width: 40%;
+    position: absolute;
+
+  }
+
+  .grid2 h1{
+      color: azure;
+  }
+
+  
